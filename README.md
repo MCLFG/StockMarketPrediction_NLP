@@ -7,7 +7,11 @@ The data was divided in a file for training and another file for testing. After 
 ### Analyze the data and provide some conclusions and visual information that contextualize the data.
 In the data exploration, two histograms were plotted to infer the count of the binary variable, in this case, the Closing Status and to identify what were the most frequent words in the headlines for each Id.
 
+![alt text](Hist1.PNG)
+
 It can be observed that the most frequent words appear to be stop words or punctuation, emphasizing the importance of preprocessing the data to reveal what will be the most relevant words in each headline.
+![alt text](Hist2.PNG)
+
 ## Data Preprocessing 
 ### Implementation and experiment different preprocessing techniques
 For splitting our dataset, the function train_test_split from sklearn was used to obtain training and test sets, selecting the size of each, and fixing the random generator. 
@@ -57,5 +61,7 @@ In almost every model presented in this project, with exception of the KNN model
 There can be different approaches to choose the preferred model for predicting the daily closing values of a tock market index.
 
 The emphasis should rely on general performance measures, such as the precision, recall and accuracy. Following this approach, the KNN model was the one that retrieved higher values when compared to the other models: accuracy of 55% (although still low for the main goal of the present project), a precision of 67% and a recall of 55%.
+
+![alt text](Table1.PNG)
 
 Furthermore, taking into consideration the objective of the project and the results that all the models presented, it would be necessary to apply more data preprocessing methods and extra feature engineering methods to enhance the training and the learning for this data set.
