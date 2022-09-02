@@ -1,6 +1,11 @@
 # StockMarketPrediction_NLP
 ## Objective
-Project consisted on developing an NLP model to predict the daily closing values of a stock market index based on news. The jupyter notenook presents all the experiments with all the technique used and to achieave the model with higher performance.
+NLP Individual project developed for Text Mining Class of the PostGrad degree, Data Science for Finance, at NOVA IMS.
+Project consisted on developing an NLP model to predict the daily closing values of a stock market index based on news. 
+
+Resorting to the NLP techniques learned during the course, it was required to implement a binary classifier that, for each day, receives news headlines and is able to predict if the index closing value rose (1) or decreased (0).
+
+The jupyter notenook presents all the experiments and techniques used, as well as the testing of each implemented model and the performance achived with each one.
 ## DataSet
 The data was divided in a file for training and another file for testing. After applying different NLP techniques, a ready-to-run final code with the model which achieves the highest classification performance was created with the evaluation of the model for the test dataset. 
 ## Data Exploration 
@@ -65,3 +70,5 @@ The emphasis should rely on general performance measures, such as the precision,
 ![alt text](Table1.PNG)
 
 Furthermore, taking into consideration the objective of the project and the results that all the models presented, it would be necessary to apply more data preprocessing methods and extra feature engineering methods to enhance the training and the learning for this data set.
+
+Hope you find this project interesting!
